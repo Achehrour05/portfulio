@@ -84,3 +84,13 @@ body{
     }
 
 }
+/* Glassmorphism enhancement for timeline cards */
+.containertotal .cont {
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.containertotal .cont:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(97, 218, 251, 0.15);
+}
