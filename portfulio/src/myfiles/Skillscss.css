@@ -36,3 +36,9 @@
   font-weight: 500;
   font-size: 0.9rem;
 }
+
+/* Micro-interaction polish for tech skill tiles */
+.icon:hover p {
+  color: #61DAFB;
+  transition: color 0.25s ease;
+}
