@@ -245,3 +245,10 @@ img {
 
 
 
+
+/* Navbar z-index and mobile collapse backdrop */
+.navbar {
+  z-index: 1030 !important;
+  backdrop-filter: blur(12px);
+  background: rgba(33, 37, 41, 0.95) !important;
+}
