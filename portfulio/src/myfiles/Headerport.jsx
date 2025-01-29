@@ -102,7 +102,7 @@ function Headerport() {
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 0.6 }}
         >
-          <img src={avatar} alt="Abdessamad Achehrour Avatar" />
+          <img src={avatar} alt="Abdessamad Achehrour Avatar" loading="eager" width="380" height="380" />
         </motion.div>
       </div>
     </div>
