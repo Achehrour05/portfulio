@@ -1,0 +1,247 @@
+body{
+    background-color: rgb(20, 21, 36);
+}
+.navbar-expand{
+    background-color: rgb(20, 21, 36);
+}
+.sidescontainer {
+    display: flex;
+}
+
+.leftside {
+    width: 60%; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: 100px;
+    animation-name: moveleft; 
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+.job span{
+    color: rgb(40, 255, 40);
+}
+.job{
+    font-size: x-large;
+    font-weight: 500;
+}
+h2{
+    font-weight:700;
+}
+.rightside {
+    width: 50%; 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+img {
+    height: 60%;
+    width: 50%;
+    margin-top: 100px;
+    animation-name: anim; 
+    animation-duration: 2s; 
+    animation-fill-mode: forwards; 
+    border-radius: 50%;
+}
+@keyframes anim {
+    0% {
+        border: 2px solid rgb(73, 255, 86);
+    }
+    25% {
+        border: 2px solid rgb(255, 46, 46);
+    }
+    50% {
+        border: 2px solid rgb(59, 252, 255);
+    }
+    75% {
+        border: 2px solid rgb(252, 87, 255);
+    }
+    100% {
+        border: 2px solid rgb(204, 255, 85);
+    }
+}
+.nav-link{
+    position: relative;
+}
+.nav-link:hover::after{
+    content: "";
+    height: 2px;
+    width: 2px;
+    background: linear-gradient(90deg, #989898, #04ff00);
+    position: absolute;
+    bottom: 6px;
+    left: 7px;
+    width: 80%;
+}
+
+
+@media screen and (min-width: 1600px) {
+    img{
+       width: 55%;
+       height: 75%;
+    }
+    .job{
+        font-size: 60px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 70px;
+        font-weight:800;
+    }
+    .lorem{
+        font-size: 30px;
+    }
+    
+ }
+ @media screen and (max-width: 1599px) and (min-width: 1441px){
+    img{
+       width: 55%;
+       height: 70%;
+    }
+    .job{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 50px;
+        font-weight:800;
+    }
+    .lorem{
+        font-size: 20px;
+    }
+  
+ }
+
+@media screen and (max-width: 1440px) and (min-width: 1172px) {
+    img{
+       width: 50%;
+       height: 65%;
+    }
+    .job{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 40px;
+        font-weight:800;
+    }
+    .lorem{
+        font-size: 20px;
+    }
+  
+ }
+
+@media screen and (max-width: 1172px) and (min-width: 947px) {
+     img{
+        width: 60%;
+        height: 56%;
+     }
+     .job{
+        font-size: 37px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 45px;
+        font-weight:800;
+    }
+    .lorem{
+        font-size: 20px;
+    }
+   
+  }
+  @media screen and (max-width: 946px) and (min-width: 711px) {
+     img{
+        height: 40%;
+        width: 65%;
+     }
+
+    .job{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 35px;
+        font-weight:800;
+    }
+    .lorem{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 711px) and (min-width: 533px) {
+    img{
+        height: 30%;
+        width: 190%;
+        margin-left: 280px;
+        margin-bottom: 50px;
+    }
+    .leftside{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    
+  
+  }
+
+  @media screen and (max-width: 532px) and (min-width: 455px) {
+     img{
+        height: 25%;
+        width: 200%;
+        margin-left: 200px;
+     }
+     .leftside{
+        margin-left: 20px;
+     }
+     .rightside{
+        margin-left: 80px;
+     }
+     .job{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 25px;
+        font-weight:800;
+    }
+    .lorem{
+        font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 454px) {
+    .sidescontainer {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .rightside {
+        order: -1; 
+        margin-bottom: 20px; 
+        width: 100%; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    img {
+        height: 35%;
+        width: 60%;
+        margin-top: 100px;
+        margin-left: 170px;
+    }
+
+    .leftside {
+        margin: 20px 0; 
+        text-align: center; 
+        width: 90%;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
