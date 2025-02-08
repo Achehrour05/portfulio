@@ -62,7 +62,7 @@ function Projects() {
                   className="text-light"
                   aria-label={`GitHub repository for ${proj.title}`}
                 >
-                  <FaGithub size={24} />
+                  <FaGithub size={24} className="hover-scale" />
                 </a>
               </div>
               <h3 className="h4 text-light fw-bold mb-2">{proj.title}</h3>
