@@ -16,7 +16,8 @@ function ContactUs() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
+    const trimmedName = formData.name.trim();
+    if (!trimmedName || !formData.email.trim() || !formData.message.trim()) {
       setError("Veuillez remplir tous les champs.");
       return;
     }
