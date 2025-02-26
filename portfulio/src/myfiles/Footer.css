@@ -1,0 +1,14 @@
+.footer-container {
+  background: #111319;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-icon {
+  color: #adb5bd;
+  transition: all 0.25s ease;
+}
+
+.footer-icon:hover {
+  color: #61DAFB;
+  transform: translateY(-3px);
+}

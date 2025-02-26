@@ -3,6 +3,7 @@ import Midle from "./myfiles/Midle";
 import Skills from "./myfiles/Skills";
 import Projects from "./myfiles/Projects";
 import ContactUs from "./myfiles/ContactUs";
+import Footer from "./myfiles/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Skills/>
       <Projects/>
       <ContactUs/>
+      <Footer/>
     </>
   );
 }
