@@ -12,3 +12,10 @@
   color: #61DAFB;
   transform: translateY(-3px);
 }
+
+.footer-socials {
+  padding: 8px 0;
+}
+.footer-container b {
+  color: #61DAFB;
+}
