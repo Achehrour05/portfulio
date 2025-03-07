@@ -1,32 +1,38 @@
-body{
-    background-color: rgb(20, 21, 36);
-    color: white;
+.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-.h22{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(40, 255, 40);
+
+.Skillscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
 }
-.Skillscontainer{
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 50px; 
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 140px;
+  background: rgba(30, 32, 44, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
-.icon{
-    height: 130px;
-    width: 110px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-direction: column;
-    background-color: #29292988;
-    border-radius: 10px;
+
+.icon:hover {
+  border-color: #61DAFB;
+  box-shadow: 0 10px 20px rgba(97, 218, 251, 0.2);
 }
-.icon p{
-    font-size: large;
-    font-weight: 600;
+
+.icon p {
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
