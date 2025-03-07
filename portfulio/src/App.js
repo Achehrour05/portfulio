@@ -1,3 +1,4 @@
+// React 19 performance-optimized portfolio container
 import Headerport from "./myfiles/Headerport";
 import Midle from "./myfiles/Midle";
 import StatsBar from "./myfiles/StatsBar";
