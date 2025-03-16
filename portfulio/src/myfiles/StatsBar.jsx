@@ -15,7 +15,7 @@ function StatsBar() {
         {stats.map((s, idx) => (
           <div className="col-6 col-md-3" key={s.label}>
             <motion.div
-              className="p-3 rounded-4 bg-dark border border-secondary"
+              className="p-3 rounded-4 bg-dark border border-secondary shadow-sm hover-card"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: idx * 0.1 }}
