@@ -1,5 +1,6 @@
 import Headerport from "./myfiles/Headerport";
 import Midle from "./myfiles/Midle";
+import StatsBar from "./myfiles/StatsBar";
 import Skills from "./myfiles/Skills";
 import Projects from "./myfiles/Projects";
 import ContactUs from "./myfiles/ContactUs";
@@ -10,6 +11,7 @@ function App() {
     <>
       <Headerport/>
       <Midle/>
+      <StatsBar/>
       <Skills/>
       <Projects/>
       <ContactUs/>
