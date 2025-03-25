@@ -26,7 +26,7 @@ function Skills() {
       <h2 className="h23">
         My <span>Skills</span>
       </h2>
-      <div className="Skillscontainer">
+      <div className="Skillscontainer" role="list" aria-label="Technical skills list">
         {techStack.map((tech, index) => (
           <motion.div
             key={tech.name}
