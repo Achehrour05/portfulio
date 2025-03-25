@@ -27,3 +27,9 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Accessible outline for interactive elements */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 2px solid #61DAFB !important;
+  outline-offset: 2px !important;
+}
