@@ -33,3 +33,9 @@ jobs:
       run: npm run build
       env:
         CI: false
+
+    - name: Run test suite
+      working-directory: portfulio
+      run: npm test -- --watchAll=false
+      env:
+        CI: true
