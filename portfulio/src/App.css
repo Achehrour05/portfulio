@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+
+/* Smooth font rendering */
+body { text-rendering: optimizeLegibility; }
