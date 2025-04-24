@@ -54,3 +54,10 @@ Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 - 💼 LinkedIn : [abdessamad-achehrour](https://www.linkedin.com/in/abdessamad-achehrour-800138346)
 - 🐙 GitHub : [@Achehrour05](https://github.com/Achehrour05)
 - 📧 Email : abdessamadachehrour@gmail.com
+
+---
+
+## 🔧 Résolution des Problèmes Fréquents
+
+- **Erreur de port 3000 déjà utilisé :** Configurez la variable `PORT=3001 npm start`
+- **Cache npm corrompu :** Exécutez `npm cache clean --force && npm install`
